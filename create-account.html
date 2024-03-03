@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create account</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="body-form">
+    <div class="container">
+      <form action="#">
+        <h2>Create account</h2>
+
+        <div class="input-field">
+          <input type="text" required />
+          <label>Enter email</label>
+        </div>
+
+        <div class="input-field">
+          <input type="password" required />
+          <label> Enter password</label>
+        </div>
+
+        <div class="input-field">
+          <input type="password" required />
+          <label>Enter password again</label>
+        </div>
+
+        <div>
+          <button id="submitBtn">Submit!</button>
+
+          <div id="myModal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <p>Conectat <input type="checkbox" id="connectedCheckbox" /></p>
+              <button id="goBackBtn">Înapoi</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="forget">
+          <label for="Save-login">
+            <input type="checkbox" id="Save-login" />
+            <p>Save login information</p>
+          </label>
+          <a href="#">Forgot password?</a>
+        </div>
+
+        <button type="submit">Log In</button>
+
+        <div class="Create-account">
+          <p>Have an account? <a href="login.html">Login in</a></p>
+        </div>
+      </form>
+    </div>
+
+    <script src="scri"></script>
+  </body>
+</html>
